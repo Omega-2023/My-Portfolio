@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Add this right after the body tag, before the preloader -->
+    <div class="background-animation">
+        <div class="code-loader">
+            <span>{</span><span>}</span>
+        </div>
+    </div>
+
+    <!-- Add this at the top of body -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                    <span class="logo-text">ON</span>
+                    <span class="full-name">Omega Nambo</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+            <div class="burger" aria-label="menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Hi, I'm <span class="highlight">Omega Nambo</span></h1>
+            <p class="title">Web Developer</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a sophomore at Wingate University in North Carolina, USA, pursuing a Bachelor's degree in Mathematics. As an aspiring web developer with a strong foundation in front-end technologies, I combine my mathematical problem-solving skills with my passion for creating intuitive and impactful digital experiences.</p>
+                
+                <p>My journey in web development began with building interactive projects, from quiz applications to full-featured dating platforms, which has helped me develop a deep understanding of HTML, CSS, and JavaScript. My mathematical background enhances my ability to approach complex programming challenges with analytical precision.</p>
+                
+                <p>Currently seeking internship opportunities to further enhance my skills and contribute to meaningful projects, I bring hands-on experience in developing responsive websites and web applications. My portfolio demonstrates my ability to tackle complex problems and deliver user-friendly solutions.</p>
+                
+                <p>What drives me is the endless potential of web technologies to create innovative solutions that make a difference. I am particularly interested in modern web development practices and always eager to learn new technologies to stay at the forefront of this dynamic field.</p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h4>Web Development</h4>
+                        <div class="skill-items">
+                            <div class="skill">HTML5</div>
+                            <div class="skill">CSS3</div>
+                            <div class="skill">JavaScript</div>
+                            <div class="skill">React</div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Audio Production</h4>
+                        <div class="skill-items">
+                            <div class="skill">Sound Engineering</div>
+                            <div class="skill">Audio Production</div>
+                            <div class="skill">Studio Equipment</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>SuGa Website</h3>
+                <p>A modern dating platform designed to connect people. Features include user profiles, matching system, and real-time messaging. <span class="private-badge">Private Repository</span></p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/SuGa-Website.git" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>Web Quiz</h3>
+                <p>Interactive web-based quiz application with dynamic questions and scoring system.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/webQuiz" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>Quiz 2.0</h3>
+                <p>Enhanced version of the quiz application with additional features and improved UI.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/quiz2" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>SuGa Prototype</h3>
+                <p>Public prototype of the SuGa dating platform, demonstrating core features and user interface concepts.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/SuGa-Prototype" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>Omega TV</h3>
+                <p>Video streaming platform with custom user interface and media controls.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/Omega-tV" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>Telliv</h3>
+                <p>Digital entertainment platform with interactive user experience.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/Telliv" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>TELLIV Control</h3>
+                <p>Administrative control panel for managing Telliv platform features and content.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/TELLIV-CONTROL" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>Original portfolio website showcasing professional background and achievements.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/Omega-2023/nambo-omega-ndoh" class="project-link" target="_blank" rel="noopener noreferrer">View Project <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm currently available for internship opportunities. Feel free to reach out if you'd like to collaborate or have any questions.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email:</span>
+                        <a href="mailto:om.nambo026@wingate.edu">om.nambo026@wingate.edu</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location:</span>
+                        <p>102 West Wilson St, Wingate, NC 28174</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Omega-2023" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/omega-ndoh-nambo" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Omega Nambo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
